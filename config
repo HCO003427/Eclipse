@@ -1,0 +1,11 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "remote-eclipse"]
+	url = https://github.com/HCO003427/Eclipse.git
+[branch "master"]
+	remote = remote-eclipse
+	merge = refs/heads/master
+	rebase = false
